@@ -1,0 +1,40 @@
+*{
+	font-size: 20px
+}
+input, select{
+color :blue;
+margin: 10px;
+border-radius: 10px;
+padding: 20px;
+}
+.panel{
+	background-color:#fff;
+	border: 10px;
+	border-radius: 10px
+}
+h2{
+	font-family: verdana;
+	color: green;
+}
+
+h2 > span{
+	color:red;
+}
+button{
+	padding:10px;
+	color:pink;
+	font-size: 20px;
+	font-family: tahoma;
+	text-transform: uppercase;
+	background-color: black
+}
+input:hover{
+	background-color: rgb(80,160,160);
+}
+
+input:focus{
+	background-color: rgb(255,100,177);
+}
+input[type="email"],input[type="password"]{
+	width:560px;
+}
